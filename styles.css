@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    max-width: 1366px;
+    width: 100%;
+}
+
+
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+
+
+.nav {
+    background-color: rgb(13, 33, 46);
+    overflow: hidden;
+    text-align: right;
+    border: none; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav .button {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    background-color: rgb(13, 33, 46);
+    font-size: 20px;
+    color: rgb(0, 81, 120);
+    padding: 20px 20px;
+    border: none;
+    box-shadow: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.nav .button:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    color:rgb(13, 33, 46);
+    padding: 10px;
+    margin-top: 170px;
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-bottom: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.title:hover {
+    transform: scale(1.1);
+}
+
+
+
+.box {
+    padding: auto;
+    transition: transform 0.3s ease-in-out;
+    width: 60%;
+    position: relative;
+}
+
+.box:hover {
+    transform: translateX(50px);
+}
+
+
+
+.subTitle { 
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color:rgb(0, 81, 120);;
+    text-align: left;
+    padding: 0px 0px 0px 365px;
+}
+
+
+
+.textoOff {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgb(0, 81, 120);
+    text-align: left;
+    padding: 0px 0px 0px 365px;
+    transition: color 0.2s ease-out;
+}
+
+
+
+
+.divPestaña {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 33, 46);
+    width: 20%;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 400px;
+    margin-bottom: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.divPestaña:hover {
+    transform: scale(1.1);
+}
+
+
+.textPestaña {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color:rgb(0, 81, 120);
+    text-align: center;
+    padding: auto;
+    
+}
